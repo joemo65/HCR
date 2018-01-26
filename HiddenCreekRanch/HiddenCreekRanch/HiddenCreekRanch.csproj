@@ -69,6 +69,8 @@
     <Folder Include="Views\Camps\" />
     <Folder Include="Views\Instructors\" />
     <Folder Include="Views\Lessons\" />
+    <Folder Include="Images\" />
+    <Folder Include="Styles\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -122,6 +124,7 @@
     <Content Include="Views\Camps\Index.cshtml" />
     <Content Include="Views\Instructors\Index.cshtml" />
     <Content Include="Views\Lessons\Index.cshtml" />
+    <Content Include="Styles\Shared\Layout.css" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.0.0.slim.min.map" />
