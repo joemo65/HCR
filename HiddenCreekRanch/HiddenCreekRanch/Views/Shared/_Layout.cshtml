@@ -3,17 +3,21 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - HiddenCreekRanch</title>
+    <title>Hidden Creek  Ranch</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/Shared/Layout.css"/>
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/Shared/Layout.css"/>
     </environment>
 </head>
 <body>
@@ -26,13 +30,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">HiddenCreekRanch</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand hcr-blue">Hidden Creek Ranch</a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-right navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Lessons</a></li>
+                    <li><a asp-area="" asp-controller="Events" asp-action="Index">Events</a></li>
+                    <li><a asp-area="" asp-controller="Camps" asp-action="Indes">Camps</a></li>
+                    <li><a asp-area="" asp-controller="Instructors" asp-action="Index">Instructors</a></li>
+                    <li><a asp-area="" asp-controller="Contact" asp-action="Inde">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -41,7 +47,18 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - HiddenCreekRanch</p>
+            <div class="row">
+                <div class="col-md-10">
+                    <p class="grey-text">&copy; @(DateTime.UtcNow.Year) Copyright: <strong> Hidden Creek Ranch Inc.</strong></p>
+                </div>
+                <div class="col-md-2">
+                    <div class="social-section row">
+                            <div class="col-md-3"><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-2x fa-facebook-square"></i></a></div>
+                            <div class="col-md-3"><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-2x fa-instagram"></i></a></div>
+                            <div class="col-md-3 end"><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-2x fa-twitter"></i></a></div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 

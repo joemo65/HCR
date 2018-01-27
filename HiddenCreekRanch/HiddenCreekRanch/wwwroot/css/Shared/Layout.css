@@ -1,0 +1,20 @@
+﻿.hcr-blue {
+    color: #337ab7 !important;
+}
+
+.hcr-blue:hover {
+    color: #e6e6e6 !important
+}
+
+.navbar {
+    background-color:#4d4d4d;
+    border-bottom:0;   
+}
+
+.navbar-nav > li > a {
+    color: #e6e6e6 !important;
+}
+
+.navbar-nav > li > a:hover {
+    color: #337ab7 !important;
+}
