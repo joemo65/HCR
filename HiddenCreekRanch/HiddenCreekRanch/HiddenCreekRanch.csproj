@@ -14,5 +14,9 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\css\Shared\" />
+    <Folder Include="Views\Events\" />
+    <Folder Include="Views\Camps\" />
+    <Folder Include="Views\Instructors\" />
+    <Folder Include="Views\ContactUs\" />
   </ItemGroup>
 </Project>
