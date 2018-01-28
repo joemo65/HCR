@@ -36,9 +36,9 @@
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Events" asp-action="Index">Events</a></li>
                     <li><a asp-area="" asp-controller="Lessons" asp-action="Index">Lessons</a></li>
-                    <li><a asp-area="" asp-controller="Camps" asp-action="Indes">Camps</a></li>
+                    <li><a asp-area="" asp-controller="Camps" asp-action="Index">Camps</a></li>
                     <li><a asp-area="" asp-controller="Instructors" asp-action="Index">Instructors</a></li>
-                    <li><a asp-area="" asp-controller="Contact" asp-action="Inde">Contact Us</a></li>
+                    <li><a asp-area="" asp-controller="ContactUs" asp-action="Index">Contact Us</a></li> 
                 </ul>
             </div>
         </div>
@@ -48,10 +48,13 @@
         <hr />
         <footer>
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-3 text-center">
+                        <span>(+1) 714-363-1563</span> 
+                </div>
+                <div class="col-md-6 text-center">
                     <p class="grey-text">&copy; @(DateTime.UtcNow.Year) Copyright: <strong> Hidden Creek Ranch Inc.</strong></p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="social-section row">
                             <div class="col-md-3"><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-2x fa-facebook-square"></i></a></div>
                             <div class="col-md-3"><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-2x fa-instagram"></i></a></div>
