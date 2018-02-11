@@ -42,7 +42,7 @@ namespace HiddenCreekRanch
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Entrance}/{id?}");
+                    template: "{controller=Start}/{action=Entrance}/{id?}");
             });
         }
     }

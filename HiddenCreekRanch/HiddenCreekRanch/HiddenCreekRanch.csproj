@@ -20,5 +20,6 @@
     <Folder Include="Views\ContactUs\" />
     <Folder Include="Views\Lessons\" />
     <Folder Include="Views\Horses\" />
+    <Folder Include="Views\Start\" />
   </ItemGroup>
 </Project>
