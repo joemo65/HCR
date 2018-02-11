@@ -21,5 +21,6 @@
     <Folder Include="Views\Lessons\" />
     <Folder Include="Views\Horses\" />
     <Folder Include="Views\Start\" />
+    <Folder Include="wwwroot\css\Start\" />
   </ItemGroup>
 </Project>

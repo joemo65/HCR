@@ -1,0 +1,14 @@
+﻿a {
+    color: white;
+    background-color: #337ab7;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    border-radius:5px;
+}
+
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+
+}
